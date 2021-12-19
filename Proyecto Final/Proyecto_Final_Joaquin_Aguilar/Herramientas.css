@@ -1,0 +1,158 @@
+@media screen and (min-width:300px) and (max-width:800px) {
+  body{font-size:0.8em;}
+  sidebar{display:none;}
+  }
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0%;
+}
+
+body {
+  background: #b92b27; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1565c0,
+    #b92b27
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1565c0,
+    #b92b27
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 30px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  font-family: cursive;
+}
+ul {
+  list-style: none;
+}
+.conteiner {
+  width: 98%;
+  margin: auto;
+}
+.nav-main {
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 20px, 0;
+  background-color: rgba(229, 255, 0, 0.479);
+}
+.nav-brand {
+  width: 50px;
+  padding: 10px, 0;
+  margin: auto;
+}
+.nav-main ul {
+  display: flex;
+}
+.nav-main ul li {
+  padding: 50px;
+  text-align: center;
+}
+.nav-main ul li a:hover {
+  border-bottom: 5px solid rgb(47, 179, 255);
+}
+.nav-main ul.nav-menu {
+  flex: 1;
+  margin-left: 30px;
+}
+footer {
+  padding: 20px;
+  text-align:center;
+  background: rgba(229, 255, 0, 0.479); 
+  margin: 10px;
+}
+footer ul {
+  display: flex;
+}
+footer ul li {
+  padding: 50px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+footer ul li:hover {
+  background-color: #1565c0;
+}
+
+.galeria {
+  list-style-type: none;
+}
+
+.galeria li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.obra {
+  margin: 1.5em;
+  width: 250px;
+}
+
+.galeria img {
+
+  width: 250px;
+  border-radius: 20px;
+  color:white;
+  border: 3px solid;
+}
+
+
+
+@keyframes blur{
+  from{
+      text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 30px #ff0099,
+      0px 0px 70px #ff0099,
+      0px 0px 30px #ff0099,
+      0px 0px 30px #ff0099,
+      0px 0px 30px #ff0099,
+      0px 0px 30px #ff0099,
+      0px -10px 30px #ff0099,
+      0px -10px 30px #ff0099;
+    }
+}
+  
+
+
+label {
+float: left;
+}
+
+.mensaje{
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.7);
+padding: 50px 30px;
+position: relative;
+top: 25%;
+border: none;
+
+
+}
+.pie_de_foto{
+color:#FCC956
+
+}

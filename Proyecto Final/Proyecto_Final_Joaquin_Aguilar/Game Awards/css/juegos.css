@@ -1,0 +1,155 @@
+.contenedor{
+    display: grid;
+    grid-template-areas:
+    "top top top"
+    "ads content sidebar"
+    "footer footer footer"
+    ;
+    grid-template-columns: 1fr 3fr 1fr;
+
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    text-align:center;
+    grid-area: top;
+    padding: 15px 0px;
+    max-width: 50%;
+}
+
+.aside{
+    grid-area: ads;
+    background-color: #333;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #838AEC;
+    text-align: center;
+}
+
+
+article{
+    grid-area: content;
+}
+
+.relacionado{
+    grid-area: sidebar;
+    background-color: #333;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #838AEC;
+}
+
+footer{
+    grid-area: footer;
+    background-color: #333;
+    width: 100%;
+    padding: 50px 0;
+    clear: both;
+    position: relative;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.ocultar{
+    display: none;
+}
+
+.imagen-responsiva{
+    max-width: 100%;
+    height: auto;
+}
+.imagen-destacada{
+    width: 100%;
+}
+
+.juego, .juego-miniatura {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    transition: 1s;
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.juego:hover, .juego-miniatura:hover{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    filter:  none;
+    transform: scale(1.05);
+}
+
+.contenedor-juegos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.juego-miniatura{
+    min-width: 150px;
+    max-width: 25%;
+    height: auto;
+    margin: 5px;
+}
+
+.juego-miniatura > p{
+    align-items: center;
+    position:static;
+    text-align: center;
+    left: 10px;
+    bottom: 0px;
+    margin: 0;
+    padding: 0;
+    color:#9FFF85;
+}
+
+.video {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    transition: 1s;
+    transition: transform .2s;
+    cursor: pointer; 
+}
+
+.video:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    filter:  none;
+    transform: scale(1.05);
+}
+
+.etiqueta-miniatura-vid > p {
+    align-items: center;
+    position:static;
+    text-align: center;
+    left: 10px;
+    bottom: 0px;
+    margin: 0;
+    padding: 0;
+    color:#9FFF85;
+
+}
+
+.trailer-vid {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    transition: 1s;
+    transition: transform .2s;
+    cursor: pointer; 
+    line-height: 2rem;
+    font-weight: 500;
+    max-height: 4rem;
+    overflow: hidden;
+}

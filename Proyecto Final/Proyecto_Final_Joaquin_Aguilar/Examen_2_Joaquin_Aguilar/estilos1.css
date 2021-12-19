@@ -1,0 +1,55 @@
+*{
+    background-color: #b8f7c2;
+}
+
+
+
+.fs-3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.g-3{
+margin-top: 15%;
+
+}
+.form-label{
+    font-size: 10px;
+}
+h5{
+    text-align: left;
+}
+
+p{
+    text-align: left;
+    margin-left: 15%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.form-check{
+    text-align: left;
+}
+
+.form-check1{
+    text-align: center;
+    padding-top: none;
+    margin-top: none;
+    vertical-align: middle;
+}
+.form-check-label1{
+    font-size: 10px;
+    float: center;
+}
+.r{
+    text-align: center;
+    
+}
+.z{
+    text-align: left;
+   
+}
+.form-control1{
+    
+    padding: 50px;
+    background-color: #f8f5f5;
+    margin: 50px 50px;
+    overflow: hidden;
+}
